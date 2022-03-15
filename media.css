@@ -1,0 +1,609 @@
+/* tablet */
+
+@media only screen and (min-width: 992px) and (max-width:1279px) {
+    .movie {
+        display: flex;
+    }
+    .photo1 {
+        margin-top: 22px;
+    }
+    .global {
+        display: flex;
+        margin-top: 56px;
+    }
+    .global p {
+        margin-left: 5px;
+        font-family: var(--font1);
+        font-size: 16px;
+        color: #000000;
+    }
+    .global img {
+        width: 16px;
+    }
+    .clock,
+    .date {
+        margin-left: 15px;
+    }
+    .big-text {
+        font-family: var(--font2);
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 46px;
+        color: #000000;
+        width: 364px;
+    }
+    .movie-text p {
+        font-family: var(--font1);
+        font-size: 16px;
+        color: #000000;
+        width: 340px;
+        line-height: 18px;
+    }
+    .movie-text {
+        margin-top: 10px;
+    }
+    .movie img {
+        margin-left: 240px;
+        width: 176px;
+    }
+    .blue-area {
+        margin: auto;
+        padding: 11px 15px;
+        background-color: #1e4681;
+        color: white;
+        width: 280px;
+        margin-top: 50px;
+    }
+    .blue-area-text {
+        font-family: var(--font2);
+        font-weight: 400;
+        font-size: 16px;
+        color: #ffffff;
+        line-height: 18px;
+    }
+    .blue-area-name {
+        font-family: var(--font1);
+        font-weight: 400;
+        font-size: 14px;
+        color: #ffffff;
+        text-align: right;
+        line-height: 16px;
+    }
+    h2 {
+        font-family: var(--font2);
+        font-weight: 700;
+        font-size: 38px;
+        color: #000000;
+        margin-top: 100px;
+    }
+    .main {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-text {
+        font-family: var(--font1);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        width: 383px;
+    }
+    .main-img {
+        margin-right: 80px;
+        width: 250px;
+    }
+    .camera-and-course {
+        margin-top: 60px;
+    }
+    .ellipse-2 {
+        position: relative;
+        left: 0px;
+        bottom: -5px;
+        z-index: -1;
+    }
+    .course-1,
+    .course-2 {
+        margin-right: 60px;
+    }
+    .course-1 .text,
+    .course-2 .text,
+    .course-3 .text {
+        width: 140px;
+    }
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Roboto Slab';
+    }
+    .learn h1 {
+        margin-top: 60px;
+    }
+    .courses .title {
+        font-size: 20px;
+    }
+    .courses .text {
+        font-size: 15px;
+    }
+    .format h1 {
+        font-size: 30px;
+    }
+    .tasks {
+        margin-top: 20px;
+        display: flex;
+    }
+    .vebinar,
+    .access {
+        margin-right: 60px;
+    }
+    .title {
+        font-size: 23px;
+        font-weight: bold;
+        font-family: 'Roboto Slab';
+    }
+    .tasks .title {
+        color: #1E4681;
+    }
+    .text {
+        font-size: 17px;
+        font-family: 'Roboto';
+    }
+    .text-1 {
+        width: 250px;
+    }
+    .text-2 {
+        width: 290px;
+    }
+    .text-3 {
+        width: 260px;
+    }
+    ul {
+        width: 675px;
+    }
+    ul li {
+        font-size: 20px;
+        font-family: 'Roboto';
+    }
+    .proqramma h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .proqramma .boxes .box {
+        width: 29%;
+        height: 220px;
+    }
+    .proqramma .boxes .box img {
+        height: 100px;
+    }
+    .proqramma .box h1 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .proqramma .boxtext p {
+        font-size: 15px;
+        line-height: 10px;
+    }
+    .kurs {
+        margin-top: 40px;
+        padding: 20px 0px;
+    }
+    .kurs .boxes {
+        width: 55%;
+        padding: 30px 20px 30px 30px;
+    }
+    .kurs h1 {
+        font-size: 40px;
+        line-height: 36px;
+    }
+    .kurs .box p {
+        width: 100%;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .kurs img {
+        width: 100px;
+        height: 90px;
+    }
+    .kurs .authortext{
+        margin-left: 10px;
+    }
+    .kurs .author h4 {
+        font-size: 100%;
+    }
+    .kurs .author{
+        margin-top: 20px;
+        width: 80%;
+    }
+    .kurs .author img{
+        width: 130px;
+        height: 110px;
+    }
+    .kurs .authortext{
+        margin-left: 40px;
+    }
+    .kurs .authortext img {
+        width: 30px;
+        height: 30px;
+    }
+    .fotter12 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .nacalokursa {
+        margin-bottom: 18px;
+        font-size: 30px;
+        line-height: 26px;
+    }
+    .stoimost {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .rubl {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    .footer1dflexcontainer {
+        margin-top: 40px;
+    }
+    .fotter1dflextitle {
+        font-size: 20px;
+    }
+    .fotter1dflextext {
+        font-size: 13px;
+    }
+    .footer22 {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .iconfotter2 {
+        width: 100px;
+    }
+    .copy {
+
+        font-size: 15px;
+
+        margin-top: 30px;
+        padding-bottom: 50px;
+    }
+}
+
+
+
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width:991px) {
+    .photo1 {
+        margin-top: 26px;
+    }
+    .photo1 img {
+        width: 80px;
+    }
+    .global {
+        width: 300px;
+        display: flex;
+        margin-top: 30px;
+    }
+    .course1,
+    .clock,
+    .date {
+        width: 30%;
+        display: flex;
+        align-items: center;
+    }
+    .global p {
+        margin-left: 2px;
+        font-size: 11px;
+        width: 200px;
+    }
+    .global img {
+        width: 16px;
+    }
+    .clock,
+    .date {
+        margin-left: 12px;
+    }
+    .big-text {
+        font-family: var(--font2);
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 46px;
+        color: #000000;
+        width: 90%;
+    }
+    .movie-text p {
+        width: 85%;
+        font-family: var(--font1);
+        font-size: 15px;
+        color: #000000;
+        line-height: 30px;
+    }
+    .movie {
+        display: flex;
+        flex-direction: column;
+    }
+    .movie-text {
+        margin-top: 20px;
+    }
+    .movie img {
+        margin-left: 40%;
+        width: 150px;
+    }
+    .blue-area {
+        padding: 11px 10px;
+        background-color: #1e4681;
+        color: white;
+        width: 250px;
+        margin-top: 60px;
+        margin-right: 400px;
+    }
+    .blue-area-text {
+        font-family: var(--font2);
+        font-weight: 400;
+        font-size: 14px;
+        color: #ffffff;
+        line-height: 20px;
+    }
+    .blue-area-name {
+        font-family: var(--font1);
+        font-weight: 400;
+        font-size: 16px;
+        color: #ffffff;
+        text-align: right;
+        line-height: 26p;
+    }
+    h2 {
+        font-family: var(--font2);
+        font-weight: 700;
+        font-size: 35px;
+        color: #000000;
+        margin-top: 90px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-text {
+        font-family: var(--font1);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        width: 90%;
+    }
+    .main-img {
+        width: 230px;
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+    .camera-and-course {
+        margin-top: 40px;
+    }
+    .camera-2,
+    .ellipse-2 {
+        display: none;
+    }
+    .courses {
+        width: 100%;
+        font-family: 'Roboto';
+        flex-wrap: wrap;
+    }
+    .tasks {
+        display: flex;
+        flex-direction: column;
+    }
+    .course-1,
+    .course-2,
+    .course-3 {
+        width: 28%;
+        margin-top: 30px;
+    }
+    .course-1,
+    .course-2 {
+        margin-right: 60px;
+    }
+    .course-1 .text,
+    .course-2 .text,
+    .course-3 .text {
+        width: 140px;
+        font-size: 14px;
+    }
+    .courses{
+        margin-left: 5px;
+    }
+    .courses .title{
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Roboto Slab';
+    }
+    .learn h1 {
+        margin-top: 100px;
+    }
+    .format h1{
+        font-size: 30px;
+    }
+    .vebinar,
+    .access {
+        margin-bottom: 50px;
+    }
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Roboto Slab';
+    }
+    .tasks .title {
+        color: #1E4681;
+    }
+    .text {
+        font-size: 20px;
+        font-family: 'Roboto';
+    }
+    .format .text{
+        font-size: 16px;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .text-1 {
+        width: 300px;
+    }
+    .text-2 {
+        width: 295px;
+    }
+    .text-3 {
+        width: 270px;
+    }
+    ul {
+        width: 90%;
+        margin-left: 15px !important;
+    }
+    ul li {
+        font-size: 14px;
+        font-family: 'Roboto';
+    }
+    .proqramma h1 {
+        font-size: 18px;
+    }
+    .proqramma .boxes {
+        margin-left: 10px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .proqramma .boxes .box {
+        width: 250px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        height: 220px;
+    }
+    .proqramma .boxes .box img {
+        height: 100px;
+    }
+    .proqramma .box h1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .proqramma .boxtext p {
+        margin: 0px;
+        padding: 0px;
+        font-size: 10px;
+        line-height: 0px;
+    }
+    .proqramma .end {
+        display: none;
+    }
+
+    
+    .kurs {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .kurs .boxes {
+        margin-left: -4px !important;
+        padding-top: 10px;
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .kurs h1 {
+        font-size: 20px;
+        line-height: 23px
+    }
+    .kurs .box p {
+        width: 100%;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .kurs .img1 {
+        width: 35%;
+        height: 35%;
+    }
+    .kurs .author {
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+    .kurs .author h4 {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .kurs .authortext img {
+        width: 15px;
+        height: 15px;
+    }
+    .fotter12 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .nacalokursa {
+        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 26px;
+    }
+    .stoimost {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .rubl {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    .footer1dflexcontainer {
+        width: 100%;
+        margin-top: 30px;
+    }
+    #footer1dflex {
+        margin-bottom: 5px;
+        width: 46%;
+        
+    }
+    .fotter1dflextitle {
+        font-size: 18px;
+        line-height: 20px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .fotter1dflextext {
+        font-size: 13px;
+        line-height: 101.38%;
+        color: #000000;
+        margin-top: 10px;
+    }
+    .footer22 {
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .iconfotter2 {
+        width: 80px;
+    }
+    .contact-box {
+        margin-right: 15%;
+    }
+    .footer2socialicons img {
+        width: 18px;
+    }
+    .callmesscontainer {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .callmesscontainer img {
+        width: 20px;
+    }
+    .callmesstext {
+        color: white;
+        margin-left: 15px;
+        font-family: var(--roboto);
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 101.38%;
+        color: #FFFFFF;
+    }
+    .copy {
+        width: 90%;
+        margin: auto;
+        font-family: var(--roboto);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 101.38%;
+        color: #FFFFFF;
+        margin-top: 20px;
+        padding-bottom: 50px;
+    }
+}
